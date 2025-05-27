@@ -103,3 +103,11 @@ $jsonInput = $serviceToDelete | ConvertTo-Json
 # Delete the service
 win32service config delete --input $jsonInput
 ```
+
+## Platform support
+
+| Platform | Supported |
+| -------- | --------- |
+| Windows  | ✅        |
+| macOS    | ❌        |
+| Linux    | ❌        |
