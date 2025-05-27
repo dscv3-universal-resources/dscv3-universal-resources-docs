@@ -1,0 +1,22 @@
+remote_theme: just-the-docs/just-the-docs
+title: DSC v3 Universal Resources
+description: DSC v3 Universal resources
+aux_links:
+  "GitHub":
+    - "https://github.com/Gijsreyn/dscv3-universal-resources/"
+
+gh_edit_link: true
+gh_edit_link_text: "Edit this page on GitHub"
+gh_edit_repository: "https://github.com/Gijsreyn/dscv3-universal-resources-docs/docs"
+gh_edit_branch: "main"
+gh_edit_view_mode: "tree"
+
+back_to_top: true
+back_to_top_text: "Back to top"
+
+callouts:
+  note:
+    title: "Note"
+    color: purple
+
+footer_content: "<a href=\"https://opensource.org/licenses/MIT\"><img alt=\"MIT License\" style=\"border-width:0\" src=\"https://img.shields.io/badge/License-MIT-yellow.svg\" /></a><br />This work is licensed under the <a href=\"https://opensource.org/licenses/MIT\">MIT License</a>.<br />Copyright &copy; 2025 Gij Reyn - All rights reserved."
