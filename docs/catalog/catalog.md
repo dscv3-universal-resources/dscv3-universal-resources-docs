@@ -16,7 +16,7 @@ the dscv3-universal-resources repository:
 
 ```powershell
 # Get the latest release packages from the GitHub repository
-$repoOwner = "gijsreyn"
+$repoOwner = "dscv3-universal-resources"
 $repoName = "dscv3-universal-resources"
 $apiUrl = "https://api.github.com/repos/$repoOwner/$repoName/releases"
 
@@ -48,6 +48,9 @@ download the packages automatically.
 
 <!-- markdownlint-disable MD013 -->
 
-| Resource Name       | Description              | Build Status                                                                                                                                                                                                                         |
-| ------------------- | ------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| DSC Windows Service | Manages Windows services | [![Win32service CI](https://github.com/Gijsreyn/dscv3-universal-resources/actions/workflows/ci.win32service.yml/badge.svg?branch=main)](https://github.com/Gijsreyn/dscv3-universal-resources/actions/workflows/ci.win32service.yml) |
+| Resource Name       | Description              | Build Status           |
+| ------------------- | ------------------------ | ---------------------- |
+| DSC Windows Service | Manages Windows services | ![Win32service CI][00] |
+
+<!-- Link reference definitions -->
+[00]: https://github.com/dscv3-universal-resources/dscv3-universal-resources/actions/workflows/ci.win32service.yml/badge.svg?branch=main
