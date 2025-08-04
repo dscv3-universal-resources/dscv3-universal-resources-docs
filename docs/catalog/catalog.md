@@ -48,8 +48,8 @@ download the packages automatically.
 
 <!-- markdownlint-disable MD013 -->
 
-| Resource Name       | Description              | Build Status           |
-| ------------------- | ------------------------ | ---------------------- |
+|    Resource Name    |       Description        |      Build Status      |
+| :-----------------: | :----------------------: | :--------------------: |
 | DSC Windows Service | Manages Windows services | ![Win32service CI][00] |
 
 <!-- Link reference definitions -->
