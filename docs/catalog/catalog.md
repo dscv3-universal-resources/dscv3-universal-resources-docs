@@ -48,9 +48,11 @@ download the packages automatically.
 
 <!-- markdownlint-disable MD013 -->
 
-|    Resource Name    |       Description        |      Build Status      |
-| :-----------------: | :----------------------: | :--------------------: |
-| DSC Windows Service | Manages Windows services | ![Win32service CI][00] |
+|    Resource Name    |       Description        |                 Build Status                 |
+| :-----------------: | :----------------------: | :------------------------------------------: |
+| DSC Windows Service | Manages Windows services |            ![Win32service CI][00]            |
+|  DSC Windows User   |   Manage Windows users   | ![UniversalDsc Windows User Resource CI][01] |
 
 <!-- Link reference definitions -->
 [00]: https://github.com/dscv3-universal-resources/dscv3-universal-resources/actions/workflows/ci.win32service.yml/badge.svg?branch=main
+[01]: https://github.com/dscv3-universal-resources/dscv3-universal-resources/actions/workflows/ci.universaldsc.resource.windows.user.yml/badge.svg?branch=main

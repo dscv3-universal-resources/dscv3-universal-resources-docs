@@ -26,7 +26,8 @@
     "line-length": {
         "strict": true,
         "code_blocks": false,
-        "headings": false
+        "headings": false,
+        "line_length": 100 
     },
     "link-image-style": {
         "collapsed": false,

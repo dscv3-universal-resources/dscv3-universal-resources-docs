@@ -9,7 +9,7 @@ parent: Catalog
 
 ## Short description
 
-The Win32Service resource in PowerShell DSC allows you
+The Win32Service resource in Microsoft DSC v3 allows you
 to manage Windows services.
 
 ## Description
@@ -107,7 +107,15 @@ win32service config delete --input $jsonInput
 ## Platform support
 
 | Platform | Supported |
-| -------- | --------- |
-| Windows  | ✅        |
-| macOS    | ❌        |
-| Linux    | ❌        |
+| :------: | :-------: |
+| Windows  |    ✅     |
+|  macOS   |    ❌     |
+|  Linux   |    ❌     |
+
+## Package availability |
+
+| Source | Availability |
+|:------:|:------------:|
+| GitHub |      ✅       |
+| NuGet  |      ❌       |
+| WinGet |      ❌       |
