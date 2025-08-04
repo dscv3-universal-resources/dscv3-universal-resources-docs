@@ -5,7 +5,7 @@ parent: Catalog
 
 # UniversalDsc Windows User
 
-## about_UniversalDsc.Windows/User_resource
+## about_UniversalDsc.Windows/User
 
 ## Short description
 
@@ -64,6 +64,7 @@ windows-user config export
 | description | Specifies the description of the user account.                                                                           | No                  |
 | enabled     | Specifies whether the user account is enabled. Valid values are true or false. Default is true.                          | No                  |
 | groups      | An array of group names that this user should be a member of.                                                            | No                  |
+| exist       | Specifies whether the user should exist. Valid values are true or false. Default is true.                               | No                  |
 
 ## Exit Codes
 
@@ -89,6 +90,7 @@ $userConfig = @{
     password = "P@ssw0rd123"
     description = "This user demonstrates the UniversalDsc.Windows/User resource capabilities"
     enabled = $true
+    exist = $true
 }
 
 # Convert the configuration to JSON

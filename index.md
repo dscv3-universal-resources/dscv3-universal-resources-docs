@@ -37,6 +37,10 @@ The following list represents the current available resources in the repository:
   - A DSC v3 resource for managing Windows user accounts. It provides functionality
       to create, modify, and remove user accounts, including setting user properties
       like full name, description, and password. It's written in .NET using OpenDsc's library
+- **Windows group**
+  - A DSC v3 resource for managing Windows group accounts. It provides functionality
+      to create, modify, and remove group accounts, including managing group membership
+      and setting group properties like description and member lists.
 
 More resources in additional languages will be added soon. Stay tuned!
 
