@@ -7,12 +7,12 @@ permalink: docs/catalog
 
 # Catalog
 
-This is a catalog of DSC resources available.
+This is a catalog of available Microsoft DSC resources.
 
 ## Resources
 
 You can use PowerShell to retrieve the available release packages from
-the dscv3-universal-resources repository:
+the [dscv3-universal-resources][00] repository:
 
 ```powershell
 # Get the latest release packages from the GitHub repository
@@ -50,9 +50,10 @@ download the packages automatically.
 
 |    Resource Name    |       Description        |                 Build Status                 |
 | :-----------------: | :----------------------: | :------------------------------------------: |
-| DSC Windows Service | Manages Windows services |            ![Win32service CI][00]            |
-|  DSC Windows User   |   Manage Windows users   | ![UniversalDsc Windows User Resource CI][01] |
+| DSC Windows Service | Manages Windows services |            ![Win32service CI][01]            |
+|  DSC Windows User   |   Manage Windows users   | ![UniversalDsc Windows User Resource CI][02] |
 
 <!-- Link reference definitions -->
-[00]: https://github.com/dscv3-universal-resources/dscv3-universal-resources/actions/workflows/ci.win32service.yml/badge.svg?branch=main
-[01]: https://github.com/dscv3-universal-resources/dscv3-universal-resources/actions/workflows/ci.universaldsc.resource.windows.user.yml/badge.svg?branch=main
+[00]: https://github.com/dscv3-universal-resources/dscv3-universal-resources/releases
+[01]: https://github.com/dscv3-universal-resources/dscv3-universal-resources/actions/workflows/ci.win32service.yml/badge.svg?branch=main
+[02]: https://github.com/dscv3-universal-resources/dscv3-universal-resources/actions/workflows/ci.universaldsc.resource.windows.user.yml/badge.svg?branch=main

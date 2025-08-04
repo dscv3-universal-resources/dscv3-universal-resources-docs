@@ -1,13 +1,13 @@
 remote_theme: just-the-docs/just-the-docs
-title: DSC v3 Universal Resources
+title: UniversalDsc
 description: DSC v3 Universal resources
 aux_links:
   "GitHub":
-    - "https://github.com/Gijsreyn/dscv3-universal-resources/"
+    - "https://github.com/dscv3-universal-resources/dscv3-universal-resources/"
 
 gh_edit_link: true
 gh_edit_link_text: "Edit this page on GitHub"
-gh_edit_repository: "https://github.com/Gijsreyn/dscv3-universal-resources-docs/docs"
+gh_edit_repository: "https://github.com/dscv3-universal-resources/dscv3-universal-resources-docs/docs"
 gh_edit_branch: "main"
 gh_edit_view_mode: "tree"
 
