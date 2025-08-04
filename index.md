@@ -33,6 +33,10 @@ The following list represents the current available resources in the repository:
   - A rewritten DSC v3 resource in Python, based on the original `Service`
       resource from `PSDesiredStateConfiguration`. It manages Windows services
       declaratively, including new capabilities supported by DSC's v3 engine.
+- **Windows user**
+  - A DSC v3 resource for managing Windows user accounts. It provides functionality
+      to create, modify, and remove user accounts, including setting user properties
+      like full name, description, and password. It's written in .NET using OpenDsc's library
 
 More resources in additional languages will be added soon. Stay tuned!
 
@@ -49,6 +53,9 @@ $outFile = Join-Path $env:TEMP 'win32service.zip'
 Invoke-WebRequest -Uri $uri -OutFile $outFile
 Expand-Archive -Path $outFile -DestinationPath (Split-Path (Get-Command dsc.exe).Path -Parent) -Force
 ```
+
+To get a list of available Micrsoft DSC v3 resources, check out the
+[catalog](docs/catalog/catalog.md)
 
 {: .note }
 Microsoft DSC should be installed on the machine for this code to work. If you

@@ -1,11 +1,11 @@
 ---
-title: WindowsUser
+title: Windows user
 parent: Catalog
 ---
 
-# WindowsUser
+# UniversalDsc Windows User
 
-## about_WindowsUser_resource
+## about_UniversalDsc.Windows/User_resource
 
 ## Short description
 
